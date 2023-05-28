@@ -1,0 +1,38 @@
+header{
+    diplay: flex;
+    text-align: center;
+}
+
+.navbar {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+#menu{
+  width: 200px;
+}
+
+li{
+  padding: 2px;
+  margin: 2px;
+  background-color: #d3d3d3;
+}
+
+
